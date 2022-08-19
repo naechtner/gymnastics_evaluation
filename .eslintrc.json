@@ -1,0 +1,63 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "ignorePatterns": ["node_modules/**"],
+    "settings": {
+        "react": {
+            "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    },
+    "extends": [
+        "next/core-web-vitals",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "eslint-plugin-import",
+        "@typescript-eslint",
+        "unnecessary-filename-in-import",
+        "unused-imports",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "@typescript-eslint/semi": ["off", 0],
+        "import/order": [
+            "error",
+            {
+                "alphabetize": {
+                    "caseInsensitive": true,
+                    "order": "asc"
+                },
+                "groups": ["builtin", "external", ["parent", "sibling"], "index"]
+            }
+        ],
+        "indent": ["error", 4],
+        "no-console": "error",
+        "no-param-reassign": "error",
+        "react-hooks/exhaustive-deps": "error",
+        "require-await": "error",
+        "@typescript-eslint/member-delimiter-style": "error",
+        "object-shorthand": "error",
+        "semi": ["off"],
+        "sort-imports": [
+            "error",
+            {
+                "ignoreCase": true,
+                "ignoreDeclarationSort": true
+            }
+        ],
+        "unnecessary-filename-in-import/rule": "error",
+        "unused-imports/no-unused-imports": "error"
+    }
+}
