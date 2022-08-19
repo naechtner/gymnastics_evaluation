@@ -1,6 +1,29 @@
+# Gymnastics evaluation
+
+This tools is supposed to be used to grade athletes during a competition and calculate the results based on these.
+
+
+## Technologies used
+- BE: NestJS? or full NextJs
+- FE: NextJS + React
+- FE State: Redux? (Needed?)
+- FE bundling: Vite? (for hot reloading) (Needed?)
+- DB: Postgres/SQLite
+- ORM: TypeOrm
+- TypeScript
+
+# Requirements
+...
+
+## Development setup
+
+- Install nix with flake support (TODO add documentation)
+- Install direnv (TODO add documentation)
+
+## TODO Remove?
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -18,7 +41,7 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -27,7 +50,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
